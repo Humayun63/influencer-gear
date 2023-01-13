@@ -48,6 +48,11 @@ header {
 }
 
 /* NAV STYLES */
+.mobile-menu,
+.mobile-card{
+    display: none;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -108,4 +113,69 @@ margin: 16px 0;
 .banner-image img {
     width: 100%;
     padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------------
+    RESPONSIVENESS 
+------------------------*/
+/* SMALL DEVICE OR MOBILE */
+@media only screen and (max-width:688px) {
+    .btn-primary{
+        font-weight: 500;
+font-size: 16px;
+    }
+    header{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-top: 35px;
+    }
+    .navbar{
+        justify-content: space-around;
+    }
+    .menu{
+        display: none;
+    }
+    .mobile-menu,
+    .mobile-card{
+        display: block;
+    }
+    .header-banner{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .header-banner > div{
+        width: 80%;
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 28px;
+line-height: 42px;
+    }
+    .banner-description{
+        font-size: 14px;
+line-height: 21px;
+    }
+}
+/* MEDIUM DEVICE OR TABLET */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    header{
+        margin: 40px 25px 69px;
+        width: auto;
+        height: auto;
+        text-align: justify;
+    }
+    .banner-title{
+        font-size: 30px;
+line-height: 42px;
+    }
 }
