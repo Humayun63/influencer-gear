@@ -115,8 +115,35 @@ margin: 16px 0;
     padding: 20px;
 }
 
+/* ----------------------
+    MAIN STYLES
+------------------------*/
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+/* PARTNER SECTION STYLES */
+.partner{
+    width: 1110px;
+    border:1px solid #AAAAAA;
+    border-left:0;
+    border-right:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px;
 
-
+}
+.partner div{
+    width: 10%;
+}
+.partner img{
+    width: 100%;
+    cursor: pointer;
+}
 
 
 
