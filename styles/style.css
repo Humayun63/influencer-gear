@@ -19,11 +19,32 @@ a {
     text-decoration: none;
 }
 
+.btn-primary {
+    width: 190px;
+    padding: 10px 25px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 41px;
+    border: 1px solid #E02C6D;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #FFFFFF;
+    color: #E02C6D;
+}
+
 /* ----------------------
     HEADER STYLES
 ------------------------*/
 header {
     margin: 40px 120px 69px;
+    width: 80%;
+    height: 85vh;
+    color: #3A3A3A;
 }
 
 /* NAV STYLES */
@@ -31,13 +52,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .logo h2 {
     font-weight: 700;
     font-size: 24px;
-    color: #3A3A3A;
 }
 
 .menu ul {
@@ -46,7 +66,6 @@ header {
 }
 
 .menu ul li a {
-    color: #3A3A3A;
     font-size: 14px;
 
 }
@@ -57,4 +76,36 @@ header {
 
 .menu ul li a i {
     font-size: 24px;
+}
+
+/* HEADER BANNER STYLES */
+.header-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-text-box{
+    width: 45%;
+}
+.banner-title{
+    font-weight: 700;
+font-size: 52px;
+line-height: 70px;
+}
+.banner-description{
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+margin: 16px 0;
+}
+.banner-image {
+    width: 45%;
+    background-image: url("../media/images/circle-design.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-image img {
+    width: 100%;
+    padding: 20px;
 }
