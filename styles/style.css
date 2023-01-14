@@ -383,8 +383,4 @@ margin: 10px 0;
     .featured{
         width: 95%;
     }
-    .featured-box,
-    .featured-thumbline{
-        /* width: 100%; */
-    }
 }
