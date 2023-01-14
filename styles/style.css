@@ -242,6 +242,39 @@ line-height: 28px;
     border-radius: 0;
     margin-top: 16px;
 }
+/* ----------------------
+    FOOTER STYLES
+------------------------*/
+footer{
+    text-align: center;
+    background: #0A0826;
+    width: 100%;
+    margin-top: 100px;
+    color: #FFFFFF;
+}
+.footer-container{
+    padding: 50px ;
+}
+.footer-container p{
+    font-weight: 700;
+font-size: 14px;
+color: #D9DBE1;
+}
+.social-icons ul{
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.social-icons ul li{
+    background: #22213C;
+    border-radius: 50%;
+}
+.social-icons ul li i{
+    color: #D9DBE1;
+    padding: 7px;
+}
 
 
 
