@@ -29,7 +29,9 @@ a {
     border-radius: 41px;
     border: 1px solid #E02C6D;
     cursor: pointer;
+    margin-bottom: 30px;
     transition: background-color 0.3s, color 0.3s;
+
 }
 
 .btn-primary:hover {
@@ -260,6 +262,7 @@ footer{
     font-weight: 700;
 font-size: 14px;
 color: #D9DBE1;
+margin: 10px 0;
 }
 .social-icons ul{
     display: flex;
@@ -335,6 +338,23 @@ color: #D9DBE1;
         width: 100%;
         grid-template-columns: repeat(4, 1fr);
         grid-row-gap: 10px;
+    }
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .featured{
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    .featured .section-title{
+        text-align: center;
+    }
+    .featured-thumbline,
+    .featured-box{
+        width: 100%;
+
     }
 }
 
