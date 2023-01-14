@@ -384,6 +384,7 @@ margin: 10px 0;
     }
 
     .partner {
+        width: 90%;
         padding: 10px;
         grid-column-gap: 20px;
         grid-row-gap: 20px;
@@ -393,7 +394,7 @@ margin: 10px 0;
         grid-column: span 2;
     }
     .partner div:nth-last-child(2){
-        grid-column-end: 6git ;
+        grid-column-end: 6;
     }
     .partner div:last-child{
         margin-left: 15px;
