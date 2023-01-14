@@ -336,7 +336,7 @@ margin: 10px 0;
 
     .partner {
         width: 100%;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-row-gap: 10px;
     }
     .products{
@@ -374,8 +374,17 @@ margin: 10px 0;
 
     .partner {
         padding: 10px;
-        display: none;
         grid-column-gap: 20px;
         grid-template-columns: repeat(5, 1fr);
+    }
+    .products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .featured{
+        width: 95%;
+    }
+    .featured-box,
+    .featured-thumbline{
+        /* width: 100%; */
     }
 }
